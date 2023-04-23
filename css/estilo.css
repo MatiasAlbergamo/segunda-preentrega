@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    background-color: #B6915D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-header {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.metodos-de-compra ul li {
+    list-style: none;
+    text-decoration: none;
+}
+.span-q-somos {
+    font-weight: bold;
+}
+.subrayado {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #B6915D;
+}
