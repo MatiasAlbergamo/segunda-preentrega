@@ -2,51 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
-    <title>Metodos de compra</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../imagenes/logo-tronco.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/55a6a59e00.js" crossorigin="anonymous"></script>
+  <title>Metodos de compra</title>
 </head>
+
 <body>
-    <header class="header">
-        <a href="../index.html" class="logo">
-            <img src="https://images.vexels.com/media/users/3/191703/isolated/preview/3477bc55ba545dc9005d5b89f593a5ea-buena-produccion-de-peliculas.png" alt="Logo-pelis">
-        </a>
-        <nav class="nav">
-        <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="./productos.html">CATÁLOGO</a></li>
-            <li><a href="./metodos-de-compra.html">METODOS DE COMPRA</a></li>
-            <li><a href="./quienes-somos.html">QUIÉNES SOMOS</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid ancho-maximo">
+        <a class="navbar-brand title-home" href="../index.html">ALBERO BIANCO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="./productos.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                CATÁLOGO
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./productos.html">Vestidos</a></li>
+                <li><a class="dropdown-item" href="./productos.html">Bolsos</a></li>
+                <li><a class="dropdown-item" href="./productos.html">Camisas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./metodos-de-compra.html">MÉTODOS DE COMPRA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./quienes-somos.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    </header>
-    <!-- Metodos de pago -->
-    <main>
-    <h1>Como podes pagar?</h1>
-    <div class="metodos-de-compra">
-        <ul>
-            <li>Transferencia bancaria</li>
-            <li>Tarjeta de credito/debito</li>
-            <li>Mercado pago</li>
-            <li>Cuenta DNI</li>
-        </ul>
+  </header>
+  <!-- Metodos de pago -->
+  <main class="main color-fondo">
+    <div class="container text-center">
+      <div class="row">
+      <h2>Metodos de compra</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <i></i>
+            <h3><b>Como podes pagar?</b></h3>
+            <ul>
+              <li>Efectivo 15% OFF</li>
+              <li>Transferencia bancaria 15% OFF</li>
+              <li>Tarjeta de credito/debito</li>
+              <li>Mercado pago</li>
+              <li>Cuenta DNI</li>
+            </ul>
+        </div>
+        <div class="col-lg">
+          <h3><b>Envíos</b></h3>
+          <ul>
+            <li><p>Hacemos envíos a cualquier zona del país mediante Correo Argentino</p></li>
+            <li><p>Puede llegar a tardar de 2 a 5 días hábiles dependiendo su origen y destino</p></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3><b>Donde encontrarnos?</b></h3>
+          <ul>
+            <li>Podés visitarnos en nuestro local de lunes a sábado de 11:00 a 20:00</li>
+            <li>Gorriti 4865, C1414BJM CABA</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    </main>
-    <!-- <h2>envíos</h2> -->
-    <footer class="footer">
-        <a href="https://www.instagram.com/alberobianco_/?hl=es" target="_blank">Instagram</a>
-        <a href="https://www.facebook.com/profile.php?id=100063768026621" target="_blank">Facebook</a>
-        <a href="https://api.whatsapp.com/send?phone=%2B542364705566&data=AWD2ksKI6RWKQ05ndduskw1cbUM7xQawcRTY8_OEczI41JiBhH8XSN9v_vSChCB1lmTfda0sQGBBP7hCZRu2IzKq78D-4CpYs89Zm67a9-GujW0GhOuybzhZhOCKpnI3gvSOzKO5ug8jHN2E8C_LcjLGXjRQJYkzPggK1v93HuLXcNtXBq2QoEzs5s-eha6a5d0nFzLfuPezWK657j4LS2IiKKkEm7Klkf5W98OLnFi212jeROVRny4V-VCVKXZWPD574FdUFC3WFG4hpQFj6Q&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR05ks-O3oc_gMWVsl60-buRITU4Javcmv0pf6Sqmro9WQLIghTCsE-ZDxg" target="_blank">WhatsApp</a>
-        <h4>Copyright 2023 | Albero Bianco</h4>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </main>
+
+  <footer class="footer">
+    <div class="redes-container">
+      <ul>
+        <li><a href="https://www.instagram.com/alberobianco_/?hl=es" class="instagram" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100063768026621" class="facebook" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=%2B542364705566&data=AWD2ksKI6RWKQ05ndduskw1cbUM7xQawcRTY8_OEczI41JiBhH8XSN9v_vSChCB1lmTfda0sQGBBP7hCZRu2IzKq78D-4CpYs89Zm67a9-GujW0GhOuybzhZhOCKpnI3gvSOzKO5ug8jHN2E8C_LcjLGXjRQJYkzPggK1v93HuLXcNtXBq2QoEzs5s-eha6a5d0nFzLfuPezWK657j4LS2IiKKkEm7Klkf5W98OLnFi212jeROVRny4V-VCVKXZWPD574FdUFC3WFG4hpQFj6Q&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR05ks-O3oc_gMWVsl60-buRITU4Javcmv0pf6Sqmro9WQLIghTCsE-ZDxg" class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i></a></li>
+      </ul>
+       <h5>Copyright 2023 | Albero Bianco</h5>
+   </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
